@@ -69,7 +69,7 @@
         </tr>
         <?php
         // Kết nối CSDL
-        $servername = "127.0.0.1";
+        $servername = "localhost:3307";
         $username = "root";
         $password = "";
         $database = "pka_s";
