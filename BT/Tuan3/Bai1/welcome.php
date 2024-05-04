@@ -9,6 +9,8 @@
 <body>
     <h2>Welcome User</h2>
     <p>This is a secure area. Only logged in users can see this page.</p>
-    <a href="logout.php">Logout</a>
+    <div class="input-group">
+        <input type="submit" value="Logout" a="logout.php">
+    </div>
 </body>
 </html>

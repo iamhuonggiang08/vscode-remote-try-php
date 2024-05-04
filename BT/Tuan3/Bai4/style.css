@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+table th a {
+    text-decoration: none;
+    color: #333;
+}
+
+table th a:hover {
+    text-decoration: underline;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+form button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d32f2f;
+}
+
+/* Nút Upload File */
+input[type="submit"] {
+    background-color: #4CAF50; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Kích thước nút */
+    border: none; /* Không có viền */
+    border-radius: 4px; /* Bo góc */
+    cursor: pointer; /* Con trỏ khi rê chuột */
+    font-size: 16px; /* Kích thước chữ */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Màu nền khi di chuột */
+}
+
+/* Nút View Upload File */
+button {
+    background-color: #008CBA; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Kích thước nút */
+    border: none; /* Không có viền */
+    border-radius: 4px; /* Bo góc */
+    cursor: pointer; /* Con trỏ khi rê chuột */
+    font-size: 16px; /* Kích thước chữ */
+}
+
+button:hover {
+    background-color: #005f6b; /* Màu nền khi di chuột */
+}
+
+/* Nút Upload File */
+.upload-button {
+    background-color: #4CAF50; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Kích thước nút */
+    border: none; /* Không có viền */
+    border-radius: 4px; /* Bo góc */
+    cursor: pointer; /* Con trỏ khi rê chuột */
+    font-size: 16px; /* Kích thước chữ */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.upload-button:hover {
+    background-color: #45a049; /* Màu nền khi di chuột */
+}
+
+/* Input type file */
+.file-input {
+    padding: 10px; /* Kích thước padding */
+    border: 2px solid #ccc; /* Viền */
+    border-radius: 5px; /* Bo góc */
+    font-size: 16px; /* Kích thước chữ */
+    background-color: #f8f8f8; /* Màu nền */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Hiệu ứng chuyển đổi */
+}
+
+/* Khi di chuột vào input */
+.file-input:hover {
+    border-color: #999; /* Màu viền khi di chuột */
+}
+
+/* Khi input được focus */
+.file-input:focus {
+    outline: none; /* Loại bỏ đường viền xanh khi focus */
+    border-color: #66ccff; /* Màu viền khi focus */
+    box-shadow: 0 0 5px #66ccff; /* Hiệu ứng bóng khi focus */
+}
